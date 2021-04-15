@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: dog, EN, prod
+jerko:
+  username: YmlUsername
+  password: YmlPassword
+  jdbcurl: YmlUrl
+
+---
+
+spring:
+  profiles: prod
+jerko:
+  username: YmlProdUsername
+  password: YmlProdPassword
+  jdbcurl: YmlProdUrl
